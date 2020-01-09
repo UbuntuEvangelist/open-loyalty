@@ -176,7 +176,7 @@ angular-sanitize@^1.5.8:
   resolved "https://registry.yarnpkg.com/angular-sanitize/-/angular-sanitize-1.6.0.tgz#ec8d33724d5622c2c82d031fd9d248cd4572263c"
 
 angular-selectize2@^1.2.3:
-  version v1.2.3
+  version "1.2.3"
   resolved "https://registry.yarnpkg.com/angular-selectize2/-/angular-selectize2-1.2.3.tgz#ac926f82d7246d87010ba5be37f04aadf9116d95"
 
 angular-translate@^2.12.0:
@@ -369,6 +369,13 @@ async@0.2.x, async@~0.2.6:
 async@1.5.2, async@^1.5.0, async@~1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
+
+async@^2.6.0:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
+  integrity sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==
+  dependencies:
+    lodash "^4.17.14"
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -1373,6 +1380,14 @@ cardinal@0.4.x:
     ansicolors "~0.2.1"
     redeyed "~0.4.0"
 
+cardinal@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/cardinal/-/cardinal-1.0.0.tgz#50e21c1b0aa37729f9377def196b5a9cec932ee9"
+  integrity sha1-UOIcGwqjdyn5N33vGWtanOyTLuk=
+  dependencies:
+    ansicolors "~0.2.1"
+    redeyed "~1.0.0"
+
 caseless@~0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.11.0.tgz#715b96ea9841593cc33067923f5ec60ebda4f7d7"
@@ -2005,6 +2020,11 @@ csv-parse@^1.1.7:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-1.1.7.tgz#6e4678f7967013ac823929a4303a3ce177115abc"
 
+csv-parse@^4.6.5:
+  version "4.8.3"
+  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-4.8.3.tgz#9f9b66c3e7e30409dba3d08ecd89eaa04b320659"
+  integrity sha512-0GPxubzYzSn08lhNTWDCkcDKn8krmw0WuscqB2RrW6sugGGskbwaaEz7PCFFwbQ0phNGTTieiyfzzu3S/jZZ7Q==
+
 currently-unhandled@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/currently-unhandled/-/currently-unhandled-0.4.1.tgz#988df33feab191ef799a61369dd76c17adf957ea"
@@ -2527,6 +2547,11 @@ esprima-fb@3001.1.0-dev-harmony-fb, esprima-fb@^3001.1.0-dev-harmony-fb:
 esprima@~1.0.2, esprima@~1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-1.0.4.tgz#9f557e08fc3b4d26ece9dd34f8fbf476b62585ad"
+
+esprima@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/esprima/-/esprima-3.0.0.tgz#53cf247acda77313e551c3aa2e73342d3fb4f7d9"
+  integrity sha1-U88kes2ncxPlUcOqLnM0LT+099k=
 
 esrefactor@~0.1.0:
   version "0.1.0"
@@ -3726,7 +3751,7 @@ https-proxy-agent@^1.0.0:
     debug "2"
     extend "3"
 
-humanize@0.0.x:
+humanize@0.0.x, humanize@^0.0.9:
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/humanize/-/humanize-0.0.9.tgz#1994ffaecdfe9c441ed2bdac7452b7bb4c9e41a4"
 
@@ -4589,6 +4614,11 @@ lodash@^3.0.1, lodash@^3.10.1, lodash@^3.8.0:
 lodash@^4.0.0, lodash@^4.0.1, lodash@^4.13.1, lodash@^4.2.0, lodash@^4.5.0:
   version "4.17.2"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.2.tgz#34a3055babe04ce42467b607d700072c7ff6bf42"
+
+lodash@^4.17.14:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 lodash@~1.0.1:
   version "1.0.2"
@@ -5913,6 +5943,13 @@ redeyed@~0.4.0:
   dependencies:
     esprima "~1.0.4"
 
+redeyed@~1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/redeyed/-/redeyed-1.0.1.tgz#e96c193b40c0816b00aec842698e61185e55498a"
+  integrity sha1-6WwZO0DAgWsArshCaY5hGF5VSYo=
+  dependencies:
+    esprima "~3.0.0"
+
 regenerate@^1.2.1:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.3.2.tgz#d1941c67bad437e1be76433add5b385f95b19260"
@@ -6376,6 +6413,17 @@ sifter@^0.5.1:
     optimist "0.6.x"
   optionalDependencies:
     microtime "^2.1.0"
+
+sifter@^0.5.4:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/sifter/-/sifter-0.5.4.tgz#3cb9e514889edfc887d8d87a355841b01ebdd1ab"
+  integrity sha512-t2yxTi/MM/ESup7XH5oMu8PUcttlekt269RqxARgnvS+7D/oP6RyA1x3M/5w8dG9OgkOyQ8hNRWelQ8Rj4TAQQ==
+  dependencies:
+    async "^2.6.0"
+    cardinal "^1.0.0"
+    csv-parse "^4.6.5"
+    humanize "^0.0.9"
+    optimist "^0.6.1"
 
 sigmund@~1.0.0:
   version "1.0.1"
