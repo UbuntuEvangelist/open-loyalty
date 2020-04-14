@@ -176,7 +176,7 @@ angular-sanitize@^1.5.8:
   resolved "https://registry.yarnpkg.com/angular-sanitize/-/angular-sanitize-1.6.0.tgz#ec8d33724d5622c2c82d031fd9d248cd4572263c"
 
 angular-selectize2@^1.2.3:
-  version v1.2.3
+  version "1.2.3"
   resolved "https://registry.yarnpkg.com/angular-selectize2/-/angular-selectize2-1.2.3.tgz#ac926f82d7246d87010ba5be37f04aadf9116d95"
 
 angular-translate@^2.12.0:
@@ -2852,12 +2852,10 @@ formidable@1.0.x:
   version "1.0.17"
   resolved "https://registry.yarnpkg.com/formidable/-/formidable-1.0.17.tgz#ef5491490f9433b705faa77249c99029ae348559"
 
-foundation-sites@^6.2.3:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/foundation-sites/-/foundation-sites-6.3.0.tgz#19b2d6e5edced8418a4a7b4a1d65287ee1c8d512"
-  dependencies:
-    jquery "^2.2.0"
-    what-input "^4.0.3"
+foundation-sites@^6.3.1:
+  version "6.6.3"
+  resolved "https://registry.yarnpkg.com/foundation-sites/-/foundation-sites-6.6.3.tgz#8ca5f246357db69e6a0e73351ce06aa8acce6540"
+  integrity sha512-8X93wUAmUg1HhVv8uWMWnwoBLSQWSmFImJencneIZDctswn724Bq/MV1cbPZN/GFWGOB/9ngoQHztfzd4+ovCg==
 
 foundation@^4.2.1-1:
   version "4.2.1"
@@ -4064,7 +4062,12 @@ jquery-datetimepicker@^2.5.4:
   version "3.1.13"
   resolved "https://registry.yarnpkg.com/jquery-mousewheel/-/jquery-mousewheel-3.1.13.tgz#06f0335f16e353a695e7206bf50503cb523a6ee5"
 
-jquery@2.2.4, "jquery@>= 1.7.2", jquery@>=1.7, jquery@^2.2.0:
+jquery@3.5.0, jquery@>=2.2.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.0.tgz#9980b97d9e4194611c36530e7dc46a58d7340fc9"
+  integrity sha512-Xb7SVYMvygPxbFMpTFQiHh1J7HClEaThguL15N/Gg37Lri/qKyhRGZYzHRyLH8Stq3Aow0LsHO2O2ci86fCrNQ==
+
+"jquery@>= 1.7.2", jquery@>=1.7:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-2.2.4.tgz#2c89d6889b5eac522a7eea32c14521559c6cbf02"
 
@@ -4974,11 +4977,12 @@ morgan@~1.6.1:
     on-finished "~2.3.0"
     on-headers "~1.0.0"
 
-motion-ui@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/motion-ui/-/motion-ui-1.2.2.tgz#ee13bdc498c9d691f0d2907114afd8b0d7a76b2f"
+motion-ui@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/motion-ui/-/motion-ui-1.2.3.tgz#9f7e17f0d66a15e9ee549023e6f3de1139a2e166"
+  integrity sha1-n34X8NZqFenuVJAj5vPeETmi4WY=
   dependencies:
-    jquery "^2.2.0"
+    jquery ">=2.2.0"
 
 ms@0.6.2:
   version "0.6.2"
@@ -7396,10 +7400,6 @@ weinre@^2.0.0-pre-I0Z7U9OV:
     express "2.5.x"
     nopt "3.0.x"
     underscore "1.7.x"
-
-what-input@^4.0.3:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/what-input/-/what-input-4.0.4.tgz#14bf1a8c5eb31cdc7b6e0f3d7f23739fd92367c7"
 
 when@^3.4.6:
   version "3.7.7"
