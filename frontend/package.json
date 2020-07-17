@@ -75,7 +75,7 @@
     "gulp-rename": "^1.2.2",
     "jquery": "2.2.4",
     "jquery-datetimepicker": "^2.5.4",
-    "jsoneditor": "^5.5.11",
+    "jsoneditor": "^7.2.0",
     "lodash": "4.0.0",
     "microplugin": "0.0.3",
     "moment": "^2.14.1",
